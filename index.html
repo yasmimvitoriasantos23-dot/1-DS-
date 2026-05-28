@@ -29,7 +29,19 @@
     <h3>Sobre mim </h3>
     <p>gosto desse tipo de paisagem! </p>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp85-QqxjITXID7fbWtBXsTvimsux9Wxb-zg&s" alt="" width="300">
-    </div>
+    <button>🫶​🎀​ <span>0</span></button>
+
+   </div>
+
+   <script>
+    const botão = document.querySelector("button")
+    botão.addEventListener('click', curtir)
+
+    function curtir(){
+        let curtidas = document.querySelector("span")
+        curtidas.textContent++;
+    }
+   </script>
 </body>
 <html>
 
