@@ -23,3 +23,26 @@ h1{
 #JavaScript{
   color:brown
 }
+
+button{
+    background-color: turquoise;
+    padding: 10px 20px; /* Espaço Interno*/
+    margin: 10px; /* Espaço Externo */
+    border-radius: 10px; /* Borda */
+    max-width: 100px;
+}
+span{
+    font-size: 20px;
+    color: rgb(48, 32, 48) (119, 0, 255);
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+#acessivel{
+display: fixed;
+left:20px;
+bottom: 20px
+}
